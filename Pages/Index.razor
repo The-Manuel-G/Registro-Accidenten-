@@ -1,0 +1,175 @@
+﻿@page "/"
+
+@using System.IO;
+@using Newtonsoft.Json;
+@using System.Collections.Generic;
+
+<h3>Registro de Accidentes</h3>
+
+<button class="btn btn-primary" @onclick="MostrarFormulario">Agregar Accidente</button>
+
+@if (mostrarFormulario)
+{
+    <div>
+        <h4>Registrar Nuevo Accidente</h4>
+        <form>
+            <div class="form-group">
+    <label for="fecha">Fecha:</label>
+    <input type="date" class="form-control" id="fecha" @bind="nuevoAccidente.Fecha" />
+</div>
+
+            
+            <div class="form-group">
+                <label for="descripcion">Descripción:</label>
+                <input type="text" class="form-control" id="descripcion" @bind="nuevoAccidente.Descripcion" />
+            </div>
+            <div class="form-group">
+                <label for="costo">Costo Económico:</label>
+                <input type="number" class="form-control" id="costo" @bind="nuevoAccidente.CostoEconomico" />
+            </div>
+            <div class="form-group">
+                <label for="muertos">Muertos:</label>
+                <input type="number" class="form-control" id="muertos" @bind="nuevoAccidente.Muertos" />
+            </div>
+            <div class="form-group">
+                <label for="heridos">Heridos:</label>
+                <input type="number" class="form-control" id="heridos" @bind="nuevoAccidente.Heridos" />
+            </div>
+            <div class="form-group">
+                <label for="vehiculos">Cantidad de Vehículos:</label>
+                <input type="number" class="form-control" id="vehiculos" @bind="nuevoAccidente.CantidadVehiculos" />
+            </div>
+            <button type="button" class="btn btn-success" @onclick="GuardarAccidente">Guardar</button>
+        </form>
+    </div>
+}
+
+
+
+    <h4>Lista de Accidentes</h4>
+    <div>
+    <label for="fechaInicio">Fecha de Inicio:</label>
+    <input type="date" class="form-control" @bind="fechaInicio" />
+</div>
+
+<div>
+    <label for="fechaFin">Fecha de Fin:</label>
+    <input type="date" class="form-control" @bind="fechaFin" />
+</div>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Descripción</th>
+                <th>Costo Económico</th>
+                <th>Muertos</th>
+                <th>Heridos</th>
+                <th>Cantidad de Vehículos</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var accidente in accidentes.Where(a => EstaEnRangoDeFechas(a.Fecha)))
+    {
+                <tr>
+                    <td>@accidente.Fecha</td>
+                    <td>@accidente.Descripcion</td>
+                    <td>@accidente.CostoEconomico</td>
+                    <td>@accidente.Muertos</td>
+                    <td>@accidente.Heridos</td>
+                    <td>@accidente.CantidadVehiculos</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" @onclick="() => VerDetalle(accidente)">Ver Detalle</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@if (detalleAccidente != null)
+{
+    <div>
+        <h4>Detalle del Accidente</h4>
+        <p><strong>Fecha:</strong> @detalleAccidente.Fecha</p>
+        <p><strong>Descripción:</strong> @detalleAccidente.Descripcion</p>
+        <p><strong>Costo Económico:</strong> @detalleAccidente.CostoEconomico</p>
+        <p><strong>Muertos:</strong> @detalleAccidente.Muertos</p>
+        <p><strong>Heridos:</strong> @detalleAccidente.Heridos</p>
+        <p><strong>Cantidad de Vehículos:</strong> @detalleAccidente.CantidadVehiculos</p>
+        <button class="btn btn-danger" @onclick="CerrarDetalle">Cerrar Detalle</button>
+    </div>
+}
+
+@code {
+    private List<Accidente> accidentes = new List<Accidente>();
+    private Accidente nuevoAccidente = new Accidente();
+    private bool mostrarFormulario = false;
+    private Accidente detalleAccidente = null;
+
+     private DateTime? fechaInicio = null;
+    private DateTime? fechaFin = null;
+
+    protected override void OnInitialized()
+    {
+        CargarAccidentes();
+    }
+
+    private void MostrarFormulario()
+    {
+        mostrarFormulario = true;
+    }
+
+    private void GuardarAccidente()
+    {
+        accidentes.Add(nuevoAccidente);
+        GuardarAccidenteEnJson(nuevoAccidente);
+        nuevoAccidente = new Accidente();
+        mostrarFormulario = false;
+    }
+
+    private void VerDetalle(Accidente accidente)
+    {
+        detalleAccidente = accidente;
+    }
+
+    private void CerrarDetalle()
+    {
+        detalleAccidente = null;
+    }
+
+    private void CargarAccidentes()
+    {
+        var archivos = Directory.GetFiles("./wwwroot/accidentes", "*.json");
+        foreach (var archivo in archivos)
+        {
+            var json = File.ReadAllText(archivo);
+            var accidente = JsonConvert.DeserializeObject<Accidente>(json);
+            accidentes.Add(accidente);
+        }
+    }
+
+    private void GuardarAccidenteEnJson(Accidente accidente)
+    {
+        var json = JsonConvert.SerializeObject(accidente);
+        var archivo = $"./wwwroot/accidentes/{Guid.NewGuid()}.json";
+        File.WriteAllText(archivo, json);
+    }
+
+    private bool EstaEnRangoDeFechas(DateTime fechaAccidente)
+{
+    if (fechaInicio.HasValue && fechaAccidente < fechaInicio.Value)
+    {
+        return false;
+    }
+
+    if (fechaFin.HasValue && fechaAccidente > fechaFin.Value)
+    {
+        return false;
+    }
+
+    return true;
+}
+
+}

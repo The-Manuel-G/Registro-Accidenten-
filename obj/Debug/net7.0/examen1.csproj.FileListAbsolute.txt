@@ -1,0 +1,68 @@
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\bin\Debug\net7.0\appsettings.json
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\bin\Debug\net7.0\examen1.staticwebassets.runtime.json
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\bin\Debug\net7.0\examen1.exe
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\bin\Debug\net7.0\examen1.deps.json
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\bin\Debug\net7.0\examen1.runtimeconfig.json
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\bin\Debug\net7.0\examen1.dll
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\bin\Debug\net7.0\examen1.pdb
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.csproj.AssemblyReference.cache
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.AssemblyInfoInputs.cache
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.AssemblyInfo.cs
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.csproj.CoreCompileInputs.cache
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.RazorAssemblyInfo.cache
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.RazorAssemblyInfo.cs
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\staticwebassets\msbuild.examen1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\staticwebassets\msbuild.build.examen1.props
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.examen1.props
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.examen1.props
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\scopedcss\bundle\examen1.styles.css
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\scopedcss\projectbundle\examen1.bundle.scp.css
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.csproj.CopyComplete
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.dll
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\refint\examen1.dll
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.pdb
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\examen1.genruntimeconfig.cache
+C:\Users\The Manuel\Documents\Progrmacion web\examen1\obj\Debug\net7.0\ref\examen1.dll
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\bin\Debug\net7.0\appsettings.json
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\bin\Debug\net7.0\examen1.staticwebassets.runtime.json
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\bin\Debug\net7.0\examen1.exe
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\bin\Debug\net7.0\examen1.deps.json
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\bin\Debug\net7.0\examen1.runtimeconfig.json
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\bin\Debug\net7.0\examen1.dll
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\bin\Debug\net7.0\examen1.pdb
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.csproj.AssemblyReference.cache
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.AssemblyInfoInputs.cache
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.AssemblyInfo.cs
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.csproj.CoreCompileInputs.cache
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.RazorAssemblyInfo.cache
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.RazorAssemblyInfo.cs
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\staticwebassets\msbuild.examen1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\staticwebassets\msbuild.build.examen1.props
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.examen1.props
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.examen1.props
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\scopedcss\bundle\examen1.styles.css
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\scopedcss\projectbundle\examen1.bundle.scp.css
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.csproj.CopyComplete
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.dll
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\refint\examen1.dll
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.pdb
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\examen1.genruntimeconfig.cache
+C:\Users\The Manuel\Documents\Progrmacion_web\examen1\obj\Debug\net7.0\ref\examen1.dll
